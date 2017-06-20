@@ -1,0 +1,141 @@
+.sprite-icon {
+    background-image: url("/templates/universal/images/icons.png");
+    display: inline-block;
+}
+
+.icon-a1 {
+    background-position: -81px 0px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a2 {
+    background-position: -162px -160px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a3 {
+
+    background-position: -81px -160px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a4 {
+
+    background-position: 0px -80px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a5 {
+
+    background-position: -81px -80px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a6 {
+
+    background-position: -162px 0px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a7 {
+    background-position: -162px -80px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a8 {
+
+    background-position: 0px -160px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-a9 {
+
+    background-position: 0px 0px;
+    width: 81px;
+    height: 80px;
+}
+
+.icon-arrow-left {
+
+    background-position: -243px -197px;
+    width: 24px;
+    height: 18px;
+}
+
+.icon-arrow-right {
+
+    background-position: -267px -197px;
+    width: 24px;
+    height: 18px;
+}
+
+.icon-buy1 {
+
+    background-position: -243px 0px;
+    width: 52px;
+    height: 34px;
+}
+
+.icon-buy2 {
+
+    background-position: -243px -34px;
+    width: 41px;
+    height: 41px;
+}
+
+.icon-buy3 {
+
+    background-position: -243px -158px;
+    width: 39px;
+    height: 39px;
+}
+
+.icon-buy4 {
+
+    background-position: -243px -113px;
+    width: 34px;
+    height: 45px;
+}
+
+.icon-buy5 {
+
+    background-position: 0px -240px;
+    width: 28px;
+    height: 45px;
+}
+
+.icon-buy6 {
+
+    background-position: -243px -75px;
+    width: 43px;
+    height: 38px;
+}
+
+.icon-logo-ftr {
+
+    background-position: -277px -113px;
+    width: 18px;
+    height: 18px;
+}
+
+.icon-logo-hdr {
+
+    background-position: -277px -131px;
+    width: 18px;
+    height: 18px;
+}
+
+.icon-phone {
+
+    background-position: -282px -158px;
+    width: 12px;
+    height: 19px;
+}

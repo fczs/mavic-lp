@@ -1,0 +1,99 @@
+.promo {
+  height: 1248px;
+  background: url("@{img-path}/top-bg.jpg") no-repeat center -4px;
+  padding-top: 44px;
+
+  header {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: @color-inverse;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    .sprite-icon {
+      margin-right: 12px;
+    }
+  }
+
+  &__phone a {
+    color: @color-link;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin-top: 77px;
+  }
+
+  &__sub {
+    font-weight: 600;
+    color: @color-link-hover;
+    margin-top: 4px;
+  }
+
+  .row {
+    margin-top: 65px;
+  }
+
+  &__sale {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 312px;
+
+    &-label {
+      .font(16, 600, @color-inverse);
+      text-transform: uppercase;
+      padding: 6px 8px;
+      background-color: #000;
+    }
+
+    h2 {
+      text-transform: uppercase;
+    }
+
+    &-txt {
+      color: @color-inverse;
+    }
+
+    &-old {
+      .font(20, 600, @color-inverse);
+      position: relative;
+      display: inline-block;
+
+      span {
+        position: relative;
+        font-size: 14px;
+        top: -4px;
+      }
+
+      .line-over {
+        position: absolute;
+        left: 0;
+        top: 12px;
+        height: 4px;
+        width: 100%;
+        background-color: #000;
+      }
+    }
+
+    &-new {
+      .font(80, 600, @color-inverse);
+      line-height: 1.1;
+
+      span {
+        position: relative;
+        font-size: 50px;
+        top: -18px;
+      }
+    }
+
+    .btn-inverse {
+      width: 190px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+label.error {
+  display: none !important;
+}
+
+.form-control.error {
+  animation: invalid 0.5s linear 3 forwards;
+}
+
+@keyframes invalid {
+  0%, 100% {
+    background-color: rgba(255, 0, 0, .3);
+  }
+  50% {
+    background-color: rgba(255, 0, 0, 0);
+  }
+}

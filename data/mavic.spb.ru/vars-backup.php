@@ -1,0 +1,9 @@
+<? $all_options = array (
+    'options' => 'a:2:{s:8:"template";s:9:"universal";s:7:"modules";a:1:{s:5:"index";a:2:{s:6:"active";i:1;s:9:"permanent";i:1;}}}',
+    'password' => 'uf7Y8Wblor',
+    'email' => 'mavic.spb@yandex.ru',
+    'email-from' => 'mavic.spb@yandex.ru',
+    'mail-subject' => 'Заявка с сайта mavic.spb.ru',
+    'mail-header' => 'Вам оставили заявку через форму на сайте mavic.spb.ru*Заполненные данные:',
+    'mail-footer' => 'Перезвоните клиенту в кратчайшие сроки!',
+); $ok = 1; ?>

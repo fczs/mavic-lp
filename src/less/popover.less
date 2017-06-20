@@ -1,0 +1,36 @@
+.popover {
+  background: #fe333c;
+  border-radius: 0;
+  box-shadow: 0 40px 70px rgba(254, 51, 60, .15);
+  color: @color-inverse;
+  padding: 0;
+  border: none;
+
+  &-title {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-content {
+    span {
+      .font(15, 600, @color-inverse);
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    border: none;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  .arrow::after {
+    border-top-color: #fe333c !important;
+    border-bottom-color: #fe333c !important;
+  }
+}

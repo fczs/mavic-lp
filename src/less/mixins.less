@@ -1,0 +1,10 @@
+.bg-rgba(@color, @opacity: 1) {
+  background-color: rgba(red(@color), green(@color), blue(@color), @opacity);
+}
+
+.font(@size: 20, @weigth: 400, @color: @color-main, @family: @ff) {
+  font-family: @family;
+  font-size: unit(@size, px);
+  font-weight: @weigth;
+  color: @color;
+}

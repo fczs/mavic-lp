@@ -1,0 +1,48 @@
+.modal-dialog {
+  width: 450px;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  background: url("@{img-path}/video.jpg") no-repeat center center;
+  padding: 30px 30px 20px;
+
+  .form-title {
+    .font(30, 600, @color-inverse);
+    margin-bottom: 40px;
+  }
+
+  .input-wrapper {
+    margin-bottom: 30px;
+    border-color: @color-inverse;
+
+    .form-control {
+      color: @color-inverse;
+    }
+  }
+
+  .btn-default {
+    width: 190px;
+    margin-top: 20px;
+  }
+
+  .close {
+    color: @color-inverse;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 32px;
+    font-weight: 400;
+    opacity: 1;
+  }
+
+  .success {
+    padding: 40px 0;
+
+    &-title {
+      .font(30, 300, @color-inverse);
+    }
+  }
+}
